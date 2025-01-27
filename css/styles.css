@@ -1,43 +1,82 @@
+@import url("../css/variable.css");
+
 body {
-    background: #376E40;
+    background-image: url("../storage/img/Rectangle.png");
 }
+
+
 
 nav {
     width: 1440px;
     height: 100px;
-    background-color: red;
 }
 
-img {
-    position: absolute;
-    width: 46px;
-    height: 46px;
-    top: 5px;
-    left: 5px;
-    right: 1389px;
-}
-
-.work{
+header nav a.work {
     position: absolute;
     width: 48px;
     height: 21px;
     top: 17px;
-    left: 1005px;
-
+    left: 1150px;
+    color: white;
+    font-family: "montserratBold", sans-serif;
 }
-.about{
+
+header nav a.about {
     position: absolute;
-    width: 55px;
+    width: 48px;
     height: 21px;
     top: 17px;
-    left: 1119px;
-
+    left: 1250px;
+    color: white;
+    font-family: "montserratBold", sans-serif;
 }
-.blog{
+header nav a.blog {
     position: absolute;
-    width: 41px;
+    width: 40px;
     height: 21px;
     top: 17px;
-    left: 1240px;
+    left: 1350px;
+    color: white;
+    font-family: "montserratBold", sans-serif;
+}
 
+img {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    top: 5px;
+    left: 5px;
+}
+.text{
+    position: absolute;
+    width: 715.18px;
+    height: 360px;
+    left: 327.64px;
+    top: 323px;
+    color: white;
+}
+
+div h2.subtitulo {
+    width: 159px;
+    height: 34px;
+    font-size: 28px;
+    font-family: "montserratBold", sans-serif;
+}
+
+
+div h1.titulo {
+    width: 626px;
+    height: 196px;
+    font-size: 80px;
+    margin-top: 5px;
+    font-family: "montserratBold", sans-serif;
+}
+
+
+div p.parrafo {
+    width: 379px;
+    height: 196px;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: "montserratMedium", sans-serif;
 }
