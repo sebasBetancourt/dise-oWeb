@@ -90,3 +90,72 @@
 .section__icon img{
 
 }
+
+
+/*----------------------------Section-movil--------------------------*/
+
+@media (max-width: 962px) {
+    .header {
+        padding: 15px;
+    }
+    .ul__menu{
+        gap: 15px;
+        padding-right: 15px;
+    }
+    .section__home{
+        display: flex;
+        justify-content: space-around;
+    }
+    .article__home{
+        left: 0;
+    }
+    .article__home span{
+
+    }
+    .article__home h1{
+        font-size: 70px;
+    }
+    .article__home p{
+
+    }
+    .section__icon {
+        justify-content: space-around;
+    }
+    .section__icon img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .header {
+        justify-content: normal;
+    }
+    .div__logo{
+        flex: 2;
+    }
+    .div__menu{
+        width: 100%;
+    }
+    .ul__menu{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .article__home{
+        top: 25svh;
+    }
+    .article__home h1{
+        font-size: 65px;
+    }
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+}
