@@ -1,13 +1,15 @@
-@font-face {
-    font-family: 'montserratMedium';
-    src: url("../storage/font/Montserrat-Medium.ttf");
-    font-weight: normal;
-    font-style: normal;
+:root{
+    --font-color-3: #eee;
+    --color-gradient-1: #376e4072;
+    --color-gradient-2: #071917d5;
+    --banner-1: url(../storage/img/Rectangle.png);
 }
 
 @font-face {
-    font-family: 'montserratBold';
+    font-family: 'Montserrat-SemiBold';
     src: url("../storage/font/Montserrat-SemiBold.ttf");
-    font-weight: normal;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("../storage/font/Montserrat-Medium.ttf");
 }

@@ -3,8 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: content-box;
-    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -38,6 +37,7 @@
 
 .ul__menu li{
     list-style: none;
+    font-family: "Montserrat-SemiBold";
 
 }
 /*---------------------main-------------------------------*/
@@ -46,11 +46,11 @@
 
 }
 .section__home{
-    background-image: linear-gradient(#376e4072, #071917d5), url(../storage/img/Rectangle.png);
+    background-image: linear-gradient(var(--color-gradient-1),var(--color-gradient-2)), var(--banner-1);
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 100svh;
+    height: 105svh;
 }
 
 .article__home {
@@ -61,17 +61,21 @@
     top: 36svh;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    color: #eee;
+    gap: 5px;
+    color: var(--font-color-3);
 }
 .article__home span {
     font-size: 28px;
+    font-family: "Montserrat-SemiBold";
 }
 
 .article__home h1{
     font-size: 75px;
+    font-family: "Montserrat-SemiBold";
 }
 
 .article__home p{
     width: 340px;
+    font-family: "Montserrat-Medium";
 }
+
