@@ -53,3 +53,25 @@
     height: 100svh;
 }
 
+.article__home {
+    width: 626px;
+    height: 360px;
+    position: relative;
+    left: 21svw;
+    top: 36svh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #eee;
+}
+.article__home span {
+    font-size: 28px;
+}
+
+.article__home h1{
+    font-size: 75px;
+}
+
+.article__home p{
+    width: 340px;
+}
