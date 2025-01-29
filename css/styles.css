@@ -50,7 +50,7 @@
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 105svh;
+    height: 135svh;
 }
 
 .article__home {
@@ -79,3 +79,14 @@
     font-family: "Montserrat-Medium";
 }
 
+
+/*------------------------------section-icon----------------------------------*/
+.section__icon{
+    background: #371917;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section__icon img{
+    
+}
