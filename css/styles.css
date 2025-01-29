@@ -8,6 +8,13 @@
 
 
 
+#hgfd{
+    color: red;
+    font-size: 40px;
+}
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -32,7 +39,6 @@
     display: flex;
     gap: 100px;
     padding-right: 100px;
-    color: #eee;
 }
 
 .ul__menu li{
@@ -40,6 +46,11 @@
     font-family: "Montserrat-SemiBold";
 
 }
+
+.ul__menu li a {
+    text-decoration: none;
+    color: #eee;
+  }
 /*---------------------main-------------------------------*/
 
 .main {
@@ -82,7 +93,7 @@
 
 /*------------------------------section-icon----------------------------------*/
 .section__icon{
-    background: #071917;
+    background: #071911;
     display: flex;
     justify-content: space-evenly;
 }
@@ -159,3 +170,5 @@
         height: 95svh;
     }
 }
+
+
