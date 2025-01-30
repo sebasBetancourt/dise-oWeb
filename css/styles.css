@@ -9,12 +9,6 @@
 
 
 
-#hgfd{
-    color: red;
-    font-size: 40px;
-}
-
-
 
 .header {
     display: flex;
@@ -89,6 +83,11 @@
 .article__home p{
     width: 340px;
     font-family: "Montserrat-Medium";
+}
+
+
+.ul__menu li a{
+    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="1.75" d="m16.24 12 3.18-3.18a1.5 1.5 0 0 0 0-2.12L17.3 4.58a1.5 1.5 0 0 0-2.12 0L12 7.76 8.82 4.58a1.5 1.5 0 0 0-2.12 0L4.58 6.7a1.5 1.5 0 0 0 0 2.12L7.76 12l-3.18 3.18a1.5 1.5 0 0 0 0 2.12l2.12 2.12a1.5 1.5 0 0 0 2.12 0L12 16.24l3.18 3.18a1.5 1.5 0 0 0 2.12 0l2.12-2.12a1.5 1.5 0 0 0 0-2.12L16.24 12Z"></path></svg>');
 }
 
 
@@ -219,7 +218,6 @@
 @media (max-width: 962px) {
     .header {
         padding: 15px;
-        background-color: red;
     }
     .ul__menu{
         gap: 15px;
@@ -269,7 +267,6 @@
 @media (max-width: 576px) {
     .header {
         justify-content: normal;
-        background-color: blue
     }
     .div__logo{
         flex: 2;
