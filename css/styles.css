@@ -205,7 +205,18 @@
     border-radius: 40px;
 }
 
+/*---------------------Footer-------------------------*/
 
+.footer{
+    background-color: #101c1c;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer img{
+    position: relative;
+    left: 760px;
+}
 
 /*----------------------------Section-movil--------------------------*/
 
