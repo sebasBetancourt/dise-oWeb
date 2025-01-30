@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -100,10 +101,6 @@
     padding-top: 2%;
 }
 
-.section__icon img{
-
-}
-
 /*-------------------------Section-img------------------------------*/
 .section__img {
     background: #101c1c;
@@ -134,68 +131,65 @@
 
 
 /*---------------------------Section-blog--------------------------------*/
+.latest__blog{
+    display: flex;
+    padding-left: 40px;
+    background: #101c1c;
+    font-family: 'Montserrat-Medium';
+    font-size: 37px;
+    width: 100%;
+    color: var(--font-color-3);
+    font-weight: normal;
+    padding-bottom: 20px;
+}
 .section__blog{
     background: #101c1c;
     display: flex;
-    flex-direction: column;
-}
-.section__blog span{
-    position: relative; 
-    font-family: 'Montserrat-Medium';
-    left: 2%;
-    font-size: 37px;
-    color: var(--font-color-3);
-    font-weight: normal;
-    margin-bottom: 2%;
-}
-
-
-.article__blog {
-    display: flex;
-    gap: 30px;
-    width: 130%;
-    justify-content: flex-start; 
-}
-
-.article__blog div {
-    background-color: #145E2A;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    width: 400px;
-    height: 636px; 
-    border-radius: 20px;
-    position: relative;
-}
-.article__blog div:first-child {
-    position: relative;
-    margin-left: -200px; 
+    flex-direction: row;
+    overflow-x: scroll;
+    gap: 1vw;
+    padding: 10px;
 }
 
 
 .article__info{
-    position: relative;
+    background-color: #145E2A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    min-width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 2vh;
+    padding-bottom: 8vh;
+    gap: 15px;
 }
 
+
 .article__info img{
-    padding: 30px;
+    justify-self: flex-start;
 }
 
 .article__info h2{
     font-family: "Montserrat-SemiBold";
     font-size: 28px;
-    padding-left: 30px;
     color: var(--font-color-3);
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 
 .article__info p{
     font-family: "Montserrat-Regular";
     font-size: 20px;
-    padding: 30px;
+    padding: 0 30px;
     color: var(--font-color-3);
+    margin-bottom: 15px;
 }
 
 .article__info button{
-    position: relative;
     font-family: "Montserrat-Regular";
     font-size: 20px;
     left: 130px;
@@ -211,11 +205,13 @@
     background-color: #101c1c;
     padding-top: 60px;
     padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer img{
     position: relative;
-    left: 600px;
 }
 
 /*----------------------------Section-movil--------------------------*/
@@ -223,6 +219,7 @@
 @media (max-width: 962px) {
     .header {
         padding: 15px;
+        background-color: red;
     }
     .ul__menu{
         gap: 15px;
@@ -259,6 +256,7 @@
 @media (max-width: 576px) {
     .header {
         justify-content: normal;
+        background-color: blue
     }
     .div__logo{
         flex: 2;
