@@ -102,6 +102,24 @@
 
 }
 
+/*-------------------------Section-img------------------------------*/
+.section__img {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+  }
+  
+  .article__urban, .article__design, .article__art {
+    margin: 10px 10px;
+  }
+  
+  .article__urban img, .article__design img, .article__art img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
 
 /*----------------------------Section-movil--------------------------*/
 
