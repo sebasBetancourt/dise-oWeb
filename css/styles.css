@@ -249,6 +249,19 @@
         height: 45px;
         object-fit: contain;
     }
+    .text__img{
+        font-size: 40px;
+    }
+    .section__blog{
+        gap: 3vw;
+        padding: 15px;
+        }
+        .article__info{
+        min-width: 40%;
+        }
+        .article__info img{
+            width: 300px;
+        }
 }
 
 
@@ -286,24 +299,11 @@
         font-size: 20px;
     }
     .section__blog{
-    display: flex;
-    flex-direction: row;
     overflow-x: scroll;
     gap: 3vw;
-    padding: 10px;
     }
     .article__info{
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     min-width: 90%;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    padding-top: 2vh;
-    padding-bottom: 8vh;
-    gap: 15px;
     }
 }
 
