@@ -44,7 +44,7 @@ header {
     text-decoration: none;
     color: var(--font-color-3);
     font-family: "Montserrat-SemiBold";
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .div__icon {
@@ -68,9 +68,9 @@ header {
 }
 .div__line img{
     position: relative;
-    width: 90%;
+    width: 93%;
     height: 1px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 .div__bar{
     margin-top: 8px;
@@ -80,9 +80,9 @@ header {
     background: #145E2A;
     display: flex;
     position: relative;
-    border-radius: 13px;
-    width: 150px;
-    height: 35px;
+    border-radius: 6px;
+    width: 103px;
+    height: 30px;
     left: 70px;
 }
 .div__bottom a{
@@ -90,12 +90,12 @@ header {
     color: var(--color-1);
     margin: 7px;
     font-family: "Montserrat-Medium";
-    font-size: 19px;
+    font-size: 13px;
 }
 .ul__navegation {
     display: flex;
     position: relative;
-    left: 350px;
+    left: 400px;
     gap: 20px;
 }
 
@@ -107,5 +107,5 @@ header {
     text-decoration: none;
     color: var(--font-color-3);
     font-family: "Montserrat-Light";
-    font-size: 18px;
+    font-size: 13px;
 }
