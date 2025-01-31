@@ -7,12 +7,13 @@
 }
 
 .header {
-    background: red;
+    background: var(--color-gradient-3);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
     width: 100%;
+    height: 14%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -22,19 +23,23 @@
 
 
 .div__log{
-    background: blue;
+    position: relative;
+    bottom: 10px;
+    left: -8px;
 }
 
 .ul__menu {
-    width:;
-    background: green;
+    position: relative;
+    bottom: 10px;
+    width:550px;
     display: flex;
+    gap: 15px;
 }
 
 .ul__menu li{
-    background: brown;
-    padding-right: 55px;
+    margin-top: 16px;
     list-style: none;
+    padding-right: 90px;
 }
 
 .ul__menu li a{
@@ -42,6 +47,5 @@
 }
 
 .ul__menu img{
-    background: pink;
     padding: 10px;
 }
