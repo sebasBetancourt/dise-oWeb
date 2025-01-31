@@ -4,5 +4,44 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+}
+
+.header {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 18px;
+    border-bottom-color: var(--color-1);
+}
+
+
+.div__log{
+    background: blue;
+}
+
+.ul__menu {
+    width:;
+    background: green;
+    display: flex;
+}
+
+.ul__menu li{
+    background: brown;
+    padding-right: 55px;
+    list-style: none;
+}
+
+.ul__menu li a{
+    text-decoration: none;
+}
+
+.ul__menu img{
+    background: pink;
+    padding: 10px;
 }
