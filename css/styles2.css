@@ -521,8 +521,8 @@ footer img{
     footer {
         display: flex;
         flex-direction: column;
-        height: 250px;
-        gap: 40px;
+        height: 180px;
+        gap: 20px;
         align-items: center;
     }
     
@@ -533,23 +533,23 @@ footer img{
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 50px 270px 10px 290px;
+        padding: 40px 90px 5px 90px;
     }
     .div__footer h2{
         font-family: "Montserrat-Bold";
-        font-size: 24px;
+        font-size: 14px;
         color: var(--font-color-3);
     }
     .div__footer p{
         font-family: "Montserrat-Regular";
-        font-size: 18px;
+        font-size: 8px;
         color: var(--font-color-3);
     }
     
     
     footer img{
-        width: 70%;
-        height: 10%; 
+        width: 60%;
+        height: 8%; 
         max-width: 220px; 
         object-fit: contain;
     }
