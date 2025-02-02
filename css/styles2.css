@@ -245,3 +245,38 @@ header {
 }
 
 
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    gap: 40px;
+    align-items: center;
+}
+
+.div__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 270px 10px 290px;
+}
+.div__footer h2{
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    color: var(--font-color-3);
+}
+.div__footer p{
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+    color: var(--font-color-3);
+}
+
+
+footer img{
+    width: 70%;
+    height: 10%; 
+    max-width: 220px; 
+    object-fit: contain;
+}
