@@ -188,14 +188,58 @@ header {
     font-size: 25px;
     color: var(--font-color-3);
     padding: 28px;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-top: 24px;
 
 }
+
+
 .section__posts {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
 }
+
 .article__posts {
-
+    background-color: #145E2A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+    width: 392px;
+    height: 530px;
 }
 
+.article__posts img {
+    width: 100%;
+    padding: 18px;
+}
 
+.article__posts h2 {
+    font-family: "Montserrat-SemiBold";
+    font-size: 24px; /* Reducido el tamaño de la fuente */
+    color: var(--font-color-3);
+}
+
+.article__posts p {
+    font-family: "Montserrat-Regular";
+    font-size: 18px; /* Reducido el tamaño de la fuente */
+    color: var(--font-color-3);
+    width: 92%;
+    margin-top: 19px;
+}
+
+.article__posts button {
+    font-family: "Montserrat-Regular";
+    font-size: 18px; /* Reducido el tamaño de la fuente */
+    color: var(--color-gradient-2);
+    width: 140px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
