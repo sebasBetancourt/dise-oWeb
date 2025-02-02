@@ -222,13 +222,13 @@ header {
 
 .article__posts h2 {
     font-family: "Montserrat-SemiBold";
-    font-size: 24px; /* Reducido el tamaño de la fuente */
+    font-size: 24px;
     color: var(--font-color-3);
 }
 
 .article__posts p {
     font-family: "Montserrat-Regular";
-    font-size: 18px; /* Reducido el tamaño de la fuente */
+    font-size: 18px; 
     color: var(--font-color-3);
     width: 92%;
     margin-top: 19px;
@@ -236,10 +236,12 @@ header {
 
 .article__posts button {
     font-family: "Montserrat-Regular";
-    font-size: 18px; /* Reducido el tamaño de la fuente */
+    font-size: 18px;
     color: var(--color-gradient-2);
     width: 140px;
     height: 45px;
     margin-top: 10px;
     border-radius: 40px;
 }
+
+
