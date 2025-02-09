@@ -1,0 +1,1 @@
+Se utilizo la pantalla de 1280x800 MacBookAir
