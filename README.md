@@ -1,1 +1,1 @@
-Se utilizo la pantalla de 1280x800 MacBookAir
+Se utilizo la pantalla de 1280x800 MacBookAir y Iphone 14 Plus 428x926
